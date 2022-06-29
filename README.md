@@ -2,7 +2,9 @@
 Report Bugs
 
 ID bugs : 001
+
 Title : error while deleting and then re-entering data; uncalculated outcome, wording appears "ERROR! ENTER A CORRECTLY FORMATTED DATE"
+
 Step to reproduce : 
 - login http://www.shino.de/parkcalc/index.php
 - Choose a parking lot
@@ -12,6 +14,8 @@ Step to reproduce :
 - Click button calculate
 
 Expected result : When the entry/exit hours are properly input, the fee can be computed.
+Severity : Critical
+Priority : High
 
 Attachment : 
 
