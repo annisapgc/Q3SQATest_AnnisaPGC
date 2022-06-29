@@ -14,7 +14,9 @@ Step to reproduce :
 - Click button calculate
 
 Expected result : When the entry/exit hours are properly input, the fee can be computed.
+
 Severity : Critical
+
 Priority : High
 
 Attachment : 
