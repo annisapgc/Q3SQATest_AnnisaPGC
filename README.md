@@ -37,7 +37,8 @@ Step to reproduce :
 - Click button calculate
  
 Expected result : When the selected parking lot the fee can be computed.
-Severy : Critical
+Severity : Critical
 Priority : High
+
 Attachment : 
 <img width="426" alt="error2" src="https://user-images.githubusercontent.com/32071195/176476582-68ce34c9-f6f7-4f13-9307-5a4f4a02d080.png">
