@@ -66,6 +66,7 @@ Step to reproduce :
 Expected result : 
 - When the selected parking lot , fee can be computed.
 - Parking lot selected successfully
+- error message missing
  
 Severy : Critical
 
@@ -74,3 +75,30 @@ Priority : High
 Attachment : 
 
 <img width="424" alt="error4" src="https://user-images.githubusercontent.com/32071195/176479563-c4471754-4a93-42e7-9828-ada01e040818.png">
+
+ID bugs : 004
+
+Title : AM/PM in entry/leave time back to first selected value after deleting and then re-entering time; uncalculated outcome, wording appears "ERROR! ENTER A CORRECTLY FORMATTED DATE".
+
+Step to reproduce : 
+- login http://www.shino.de/parkcalc/index.php?
+- Choose a parking lot
+- Delete leaving/entry time
+- click button calculate
+- update AM-PM/PM-AM
+- Click button calculate
+
+Expected result : 
+- appropriate choice time type (AM/PM)
+- fee can be computed.
+- Parking lot selected successfully
+- error message missing
+ 
+Severy : Critical
+
+Priority : High
+
+Attachment :
+
+<img width="418" alt="error5" src="https://user-images.githubusercontent.com/32071195/176481771-d465c7f4-3e87-45cc-b2ea-f235a40b03a7.png">
+
