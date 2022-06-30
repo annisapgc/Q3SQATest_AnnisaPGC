@@ -132,7 +132,7 @@ Title : Invalid time format
 
 Step to reproduce :
 
-- login http://www.shino.de/parkcalc/index.php?
+- login http://www.shino.de/parkcalc/index.php
 - Choose a parking lot
 - Input entry date and time 6/30/2022 15:00 AM
 
