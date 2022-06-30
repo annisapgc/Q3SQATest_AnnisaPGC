@@ -147,3 +147,30 @@ Priority : High
 Attachment :
 
 <img width="414" alt="error8" src="https://user-images.githubusercontent.com/32071195/176733403-27e73b58-0aba-4b90-8436-1df4b898d3e5.png">
+
+ID bugs : 007
+
+Title : 
+
+calculation result appears when clock in > clock out in the same day and time (AM)
+
+Step to reproduce :
+
+- Login http://www.shino.de/parkcalc/index.php
+- Choose a parking lot
+- Input entry date and time 7/1/2022 12:00 AM
+- Input leaving date and time 7/1/2022 10:00 AM
+
+Expected result :
+
+Estimate parking costs does not appear
+
+Severy : Critical
+
+Priority : High
+
+Attachment :
+
+<img width="415" alt="error11" src="https://user-images.githubusercontent.com/32071195/176737357-b041e9b8-dee5-4afd-a721-ad262a47b2f4.png">
+
+
