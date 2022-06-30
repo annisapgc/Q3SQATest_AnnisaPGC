@@ -102,3 +102,27 @@ Attachment :
 
 <img width="418" alt="error5" src="https://user-images.githubusercontent.com/32071195/176481771-d465c7f4-3e87-45cc-b2ea-f235a40b03a7.png">
 
+ID bugs : 005
+
+Title : data is not reset when refresh
+
+Step to reproduce :
+
+login http://www.shino.de/parkcalc/index.php?
+Choose a parking lot
+input entry date and time
+input leaving date and time
+click button calculate
+
+Expected result :
+
+data reset
+
+Severy : Medium
+
+Priority : Medium
+
+Attachment :
+
+<img width="417" alt="error6" src="https://user-images.githubusercontent.com/32071195/176730463-75e3b5bc-60eb-43c1-bc2a-e481394a4b88.png">
+
