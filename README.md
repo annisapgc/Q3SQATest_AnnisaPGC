@@ -108,11 +108,11 @@ Title : data is not reset when refresh
 
 Step to reproduce :
 
-login http://www.shino.de/parkcalc/index.php
-Choose a parking lot
-input entry date and time
-input leaving date and time
-click button calculate
+- login http://www.shino.de/parkcalc/index.php
+- Choose a parking lot
+- input entry date and time
+- input leaving date and time
+- click button calculate
 
 Expected result :
 
@@ -126,3 +126,24 @@ Attachment :
 
 <img width="417" alt="error6" src="https://user-images.githubusercontent.com/32071195/176730463-75e3b5bc-60eb-43c1-bc2a-e481394a4b88.png">
 
+ID bugs : 006
+
+Title : Invalid time format
+
+Step to reproduce :
+
+- login http://www.shino.de/parkcalc/index.php?
+- Choose a parking lot
+- Input entry date and time 6/30/2022 15:00 AM
+
+Expected result :
+
+AM and PM only until 12
+
+Severy : Critical
+
+Priority : High
+
+Attachment :
+
+<img width="414" alt="error8" src="https://user-images.githubusercontent.com/32071195/176733403-27e73b58-0aba-4b90-8436-1df4b898d3e5.png">
