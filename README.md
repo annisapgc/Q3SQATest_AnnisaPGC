@@ -30,7 +30,7 @@ ID bugs : 002
 Title : error while selected parking lot after deleting and then re-entering data; uncalculated outcome, wording appears "ERROR! ENTER A CORRECTLY FORMATTED DATE".
 
 Step to reproduce : 
-- login http://www.shino.de/parkcalc/index.php?
+- login http://www.shino.de/parkcalc/index.php
 - Choose a parking lot
 - Delete leaving/entry time
 - click button calculate
@@ -55,7 +55,7 @@ ID bugs : 003
 Title : parking lot back to first selected value after deleting and then re-entering data; uncalculated outcome, wording appears "ERROR! ENTER A CORRECTLY FORMATTED DATE".
 
 Step to reproduce : 
-- login http://www.shino.de/parkcalc/index.php?
+- login http://www.shino.de/parkcalc/index.php
 - Choose a parking lot
 - Delete leaving/entry time
 - click button calculate
@@ -81,7 +81,7 @@ ID bugs : 004
 Title : AM/PM in entry/leave time back to first selected value after deleting and then re-entering time; uncalculated outcome, wording appears "ERROR! ENTER A CORRECTLY FORMATTED DATE".
 
 Step to reproduce : 
-- login http://www.shino.de/parkcalc/index.php?
+- login http://www.shino.de/parkcalc/index.php
 - Choose a parking lot
 - Delete leaving/entry time
 - click button calculate
@@ -108,7 +108,7 @@ Title : data is not reset when refresh
 
 Step to reproduce :
 
-login http://www.shino.de/parkcalc/index.php?
+login http://www.shino.de/parkcalc/index.php
 Choose a parking lot
 input entry date and time
 input leaving date and time
