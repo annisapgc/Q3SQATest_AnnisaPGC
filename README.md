@@ -160,6 +160,7 @@ Step to reproduce :
 - Choose a parking lot
 - Input entry date and time 7/1/2022 12:00 AM
 - Input leaving date and time 7/1/2022 10:00 AM
+- click calculate
 
 Expected result :
 
