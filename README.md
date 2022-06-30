@@ -174,4 +174,30 @@ Attachment :
 
 <img width="415" alt="error11" src="https://user-images.githubusercontent.com/32071195/176737357-b041e9b8-dee5-4afd-a721-ad262a47b2f4.png">
 
+ID bugs : 008
 
+Title : 
+
+time becomes >12 when click calculate after edit AM - PM
+
+Step to reproduce :
+
+- Login http://www.shino.de/parkcalc/index.php
+- Choose a parking lot
+- Input entry date and time 7/1/2022 7:00 AM
+- Input leaving date and time 7/1/2022 10:00 PM
+- click calculate
+- edit leaving date and time 7/1/2022 10:00 AM
+- calculate
+
+Expected result :
+
+$24 (2x $12 for five hours or less)
+
+Severy : Critical
+
+Priority : High
+
+Attachment :
+
+<img width="422" alt="error13" src="https://user-images.githubusercontent.com/32071195/176739914-10d24432-db56-49f1-b9e8-1a10e4184ee2.png">
